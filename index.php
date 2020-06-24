@@ -1,4 +1,4 @@
 
 <script>
-    window.location="view/personas.html";
+    window.location="view/proyectos.php";
 </script>

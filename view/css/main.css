@@ -1,0 +1,55 @@
+
+ /* 
+ Paleta de Colores:
+ #EEEEEE -> Gris claro
+ #32E0C4 -> Aguamarina 
+ #393E46 -> Gris Oscuro
+ #222831 -> Negro claro */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    align-items: center;
+    background-color: #222831;
+    color: #EEEEEE;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    justify-content: space-between;
+}
+
+header nav{ /*header nav heredada del header*/
+    height: inherit;
+}
+
+header nav ol{ /*header nav ol heredada del header nav*/
+    display: flex;
+    height: inherit;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+header nav ol li{ /*header nav ol li heredada del header nav ol*/
+    height: inherit;
+}
+
+header nav ol li a{
+    align-items: center;
+    display: flex;
+    color: #EEEEEE;
+    font-weight: bold;
+    height: inherit;
+    padding: 0 20px 0 10px;
+    text-decoration: none;
+}
+
+header .logo{
+    margin: 0;
+    padding: 0 15px;
+    align-items: center;
+}
