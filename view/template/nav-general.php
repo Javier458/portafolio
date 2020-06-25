@@ -1,5 +1,5 @@
     <figure class="logo">
-        <img src="https://logos-download.com/wp-content/uploads/2018/07/Marvel_logo_red.png" alt="logo" height="50">
+        <img src="image/logo-white.png" alt="logo" height="65">
     </figure>
 
 <nav class="menu">
